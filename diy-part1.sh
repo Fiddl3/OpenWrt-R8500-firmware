@@ -28,7 +28,9 @@ echo '=========Add argon-mod OK!========='
 
 echo '移除bcm53xx中的其他机型'
 sed -i '402,453d' target/linux/bcm53xx/image/Makefile
-sed -i '140,392d' target/linux/bcm53xx/image/Makefile
+sed -i '140,344d' target/linux/bcm53xx/image/Makefile
+sed -i '352,392d' target/linux/bcm53xx/image/Makefile
+
 # sed -n '140,146p' target/linux/bcm53xx/image/Makefile
 echo '=========Remove other devices of bcm53xx OK!========='
 
