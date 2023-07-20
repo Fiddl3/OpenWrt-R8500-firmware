@@ -24,11 +24,11 @@ on:
         required: false
         default: 'true'
         
-      wt_upload:
+      ct_upload:
         description: 'Upload to cowtransfer'
         required: false
         default: 'false'      
-      ct_upload:
+      wt_upload:
         description: 'Upload to WeTransfer'
         required: false
         default: 'false'    
